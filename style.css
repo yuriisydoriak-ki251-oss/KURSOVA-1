@@ -566,3 +566,122 @@
     }
 
 } 
+.container{
+    width:100%;
+    max-width:1280px;
+    margin:0 auto;
+    padding:0 24px;
+} 
+.hero-section h1{
+    font-size:96px;
+    line-height:1;
+    text-align:center;
+    font-weight:800;
+    color:#0f172a;
+}
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    overflow-x:hidden;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+a{
+    text-decoration:none;
+}
+
+button{
+    border:none;
+    cursor:pointer;
+}
+
+.dashboard{
+    min-height:650px;
+}
+
+.issue:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.feature-card:hover{
+    transform:translateY(-8px);
+}
+
+.btn-blue:hover,
+.btn-talk:hover,
+.btn-white:hover{
+    transform:translateY(-3px);
+}
+
+@media(max-width:992px){
+
+    .feature-grid{
+        grid-template-columns:1fr;
+    }
+
+    .kanban-grid{
+        grid-template-columns:1fr 1fr;
+    }
+
+    .hero-section h1{
+        font-size:64px;
+    }
+
+    .feature-content h2{
+        font-size:42px;
+    }
+
+    .features-title{
+        font-size:48px;
+    }
+
+    .community-content h2{
+        font-size:48px;
+    }
+
+    .hosting-section h2{
+        font-size:48px;
+    }
+}
+
+@media(max-width:768px){
+
+    .dashboard{
+        grid-template-columns:1fr;
+    }
+
+    .sidebar{
+        display:none;
+    }
+
+    .kanban-grid{
+        grid-template-columns:1fr;
+    }
+
+    .stats-grid{
+        grid-template-columns:1fr;
+    }
+
+    .features-grid{
+        grid-template-columns:1fr;
+    }
+
+    .footer-links{
+        grid-template-columns:1fr;
+    }
+
+    .hero-section h1{
+        font-size:42px;
+    }
+
+    .community-content h2{
+        font-size:38px;
+    }
+}
