@@ -1584,3 +1584,57 @@ a{
 
     grid-column:auto !important;
 }
+/* ===== FIX FEATURE TEXT ===== */
+
+.feature-grid{
+    grid-template-columns: 1fr 1fr !important;
+    gap: 80px !important;
+    align-items: center !important;
+}
+
+
+/* права частина з текстом */
+.feature-content{
+    max-width: 520px !important;
+}
+
+
+/* заголовок */
+.feature-content h2{
+
+    font-size: 42px !important;
+
+    line-height: 1.15 !important;
+
+    letter-spacing: -1px !important;
+
+    margin-bottom: 24px !important;
+}
+
+
+/* опис */
+.feature-text{
+
+    font-size: 18px !important;
+
+    line-height: 1.7 !important;
+
+    max-width: 520px !important;
+}
+
+
+/* блоки Visualize */
+.feature-item{
+
+    width: 100% !important;
+
+    padding: 16px !important;
+}
+
+
+/* щоб EASY ADOPT не стискав текст */
+.cycles-section .feature-content{
+
+    width: 520px !important;
+
+}
