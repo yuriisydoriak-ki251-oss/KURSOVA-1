@@ -1345,87 +1345,75 @@ a{
     object-fit:cover;
     border-radius:16px;
 }
-/* ===== FINAL FIX ===== */
-
-/* HEADER - ONLY IMAGE */
-.header .logo{
-    display:flex !important;
-    align-items:center !important;
-}
-
-.header .logo img,
-.header .logo .logo-img{
-    width:120px !important;
-    height:auto !important;
-    object-fit:contain !important;
-}
-
-/* прибрати текст Plane тільки зверху */
-.header .logo span{
-    display:none !important;
-}
+/* ===== LOGO FIX 100% ===== */
 
 
-/* FOOTER */
-.footer-logo{
-    display:flex !important;
-    align-items:center !important;
-    gap:12px !important;
-}
-
-.footer-logo img{
-    width:28px !important;
-    height:28px !important;
-}
-
-.footer-logo span{
-    display:block !important;
-    color:white !important;
-    font-size:32px !important;
-}
-/* ===== LOGO FIX ===== */
-
-
-/* HEADER LOGO */
+/* ВЕРХНІЙ ЛОГОТИП */
 
 .header-logo{
     display:flex !important;
     align-items:center !important;
 }
 
+
 .header-logo img{
-    width:130px !important;
+
+    display:block !important;
+
+    width:120px !important;
+
     height:auto !important;
+
     object-fit:contain !important;
+
 }
 
 
-/* забрати зайві старі логотипи */
 
-.logo,
-.logo-text,
-.logo-icon{
-    display:none !important;
-}
-
-
-/* FOOTER LOGO */
+/* НИЖНІЙ ЛОГОТИП */
 
 .footer-logo{
+
     display:flex !important;
+
     align-items:center !important;
+
     gap:12px !important;
+
 }
 
 
 .footer-logo img{
-    width:130px !important;
-    height:auto !important;
+
     display:block !important;
+
+    width:32px !important;
+
+    height:32px !important;
+
+    object-fit:contain !important;
+
 }
 
 
-/* FOOTER */
+.footer-logo span{
 
-.footer{
-    background:#000 !important;
+    display:block !important;
+
+    color:white !important;
+
+    font-size:32px !important;
+
+    font-weight:500;
+
+}
+
+
+/* якщо лишився старий текст */
+
+.logo-text,
+.logo-icon{
+
+    display:none !important;
+
+}
