@@ -1638,3 +1638,31 @@ a{
     width: 520px !important;
 
 }
+/* ===== FIX FEATURE IMAGE SIZE ===== */
+
+.cycles-section .gradient-card{
+
+    width: 650px !important;
+    height: 500px !important;
+
+    padding: 60px !important;
+
+    border-radius: 35px !important;
+
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+    overflow: hidden !important;
+}
+
+
+/* картинка всередині */
+.cycles-section .gradient-card img{
+
+    width: 560px !important;
+
+    height: auto !important;
+
+    object-fit: contain !important;
+}
