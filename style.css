@@ -741,137 +741,6 @@ a{
     gap:20px;
 }
 
-/* =========================
-   FOOTER
-========================= */
-
-/* ======================
-   FOOTER FIX
-====================== */
-
-.footer{
-    background:#000;
-    padding:70px 0 40px;
-}
-
-
-.footer-grid{
-    display:grid;
-
-    grid-template-columns:
-        280px
-        160px
-        200px
-        160px
-        160px;
-
-    justify-content:space-between;
-    align-items:start;
-
-    gap:60px;
-}
-
-
-/* logo */
-
-
-.footer-logo{
-    display:flex;
-    align-items:center;
-    margin-bottom:25px;
-}
-
-
-.footer-logo img{
-    width:95px;
-    height:auto;
-}
-
-
-/* text */
-
-.footer-brand p{
-    color:#d1d5db;
-
-    font-size:16px;
-    line-height:1.7;
-
-    margin-bottom:25px;
-}
-
-
-/* Discord button */
-
-.discord-btn{
-
-    display:inline-block;
-
-    background:#fff;
-    color:#111;
-
-    padding:12px 22px;
-
-    border-radius:5px;
-
-    font-size:15px;
-}
-
-
-/* columns */
-
-.footer-column h4{
-
-    color:white;
-
-    font-size:18px;
-
-    margin-bottom:20px;
-
-}
-
-
-.footer-column a{
-
-    display:flex;
-
-    align-items:center;
-
-    gap:10px;
-
-
-    color:#cbd5e1;
-
-    margin-bottom:14px;
-
-    font-size:15px;
-
-}
-
-
-.footer-column i{
-
-    color:white;
-
-    width:18px;
-
-    font-size:18px;
-
-}
-
-
-/* bottom */
-
-.footer-bottom{
-
-    text-align:center;
-
-    color:#cbd5e1;
-
-    margin-top:70px;
-
-    padding-top:30px;
-
-}
 
 /* =========================
    RESPONSIVE
@@ -1235,6 +1104,142 @@ a{
     width:20px;
 
 }
+
+
+.footer-bottom{
+
+    text-align:center;
+
+    color:#cbd5e1;
+
+    margin-top:70px;
+
+}
+/* ====================
+   FOOTER FINAL
+==================== */
+
+.footer{
+    background:#000 !important;
+    padding:70px 0 40px !important;
+    position:relative;
+    z-index:10;
+}
+
+
+.footer .container{
+    max-width:1200px;
+    margin:0 auto;
+}
+
+
+.footer-grid{
+
+    display:grid !important;
+
+    grid-template-columns:
+    300px 150px 200px 170px 170px;
+
+    justify-content:space-between;
+
+    gap:60px;
+}
+
+
+/* LOGO */
+
+
+.footer-logo{
+    margin-bottom:25px;
+}
+
+
+.footer-logo img{
+    width:100px;
+}
+
+
+/* QUESTIONS */
+
+
+.footer-brand p{
+
+    color:white;
+
+    font-size:16px;
+
+    line-height:1.8;
+
+    margin-bottom:25px;
+}
+
+
+/* BUTTON */
+
+
+.discord-btn{
+
+    display:inline-block;
+
+    background:#fff !important;
+
+    color:#111 !important;
+
+    padding:12px 25px;
+
+    border-radius:6px;
+
+    text-decoration:none;
+}
+
+
+/* COLUMNS */
+
+
+.footer-column h4{
+
+    color:#fff !important;
+
+    margin-bottom:20px;
+
+    font-size:18px;
+
+}
+
+
+.footer-column a{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    color:#cbd5e1 !important;
+
+    margin-bottom:14px;
+
+    text-decoration:none;
+
+}
+
+
+/* ICONS */
+
+
+.footer-column i{
+
+    display:block;
+
+    color:white;
+
+    font-size:18px;
+
+    width:20px;
+}
+
+
+/* COPYRIGHT */
 
 
 .footer-bottom{
