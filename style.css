@@ -1372,40 +1372,39 @@ a{
 
 /* НИЖНІЙ ЛОГОТИП */
 
+/* FOOTER LOGO FIX */
+
 .footer-logo{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 12px !important;
 
-    display:flex !important;
-
-    align-items:center !important;
-
-    gap:10px !important;   /* було велике, робимо близько */
-
-    margin-bottom:35px;
-
+    margin-bottom: 35px !important;
 }
 
 
 .footer-logo img{
+    width: 32px !important;
+    height: 32px !important;
 
-    width:32px !important;
+    object-fit: contain !important;
 
-    height:32px !important;
-
-    object-fit:contain !important;
-
+    display: block !important;
 }
 
 
 .footer-logo span{
+    display: block !important;
 
-    color:white !important;
+    color: white !important;
 
-    font-size:32px !important;
+    font-size: 34px !important;
 
-    font-weight:400;
+    line-height: 1 !important;
 
+    margin: 0 !important;
 }
-
 /* якщо лишився старий текст */
 
 .logo-text,
