@@ -1382,13 +1382,20 @@ a{
 
 
 .footer-logo img{
-    width: 24px !important;
-    height: 24px !important;
+
+    width: 28px !important;
+
+    height: 28px !important;
 
     display: block !important;
-    object-fit: contain !important;
-}
 
+    object-fit: contain !important;
+
+    margin: 0 !important;
+
+    padding: 0 !important;
+
+}
 
 .footer-logo span{
     color: white !important;
@@ -1398,10 +1405,6 @@ a{
 
     margin: 0 !important;
     padding: 0 !important;
-}
-
-.footer-logo img{
-    object-fit: cover !important;
 }
 
 /* якщо лишився старий текст */
