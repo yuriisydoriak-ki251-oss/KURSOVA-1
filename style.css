@@ -1383,9 +1383,7 @@ a{
     color:white !important;
     font-size:32px !important;
 }
-/* =====================
-   LOGO FIX FINAL 
-===================== */
+/* ===== LOGO FIX ===== */
 
 
 /* HEADER LOGO */
@@ -1395,7 +1393,6 @@ a{
     align-items:center !important;
 }
 
-
 .header-logo img{
     width:130px !important;
     height:auto !important;
@@ -1403,13 +1400,13 @@ a{
 }
 
 
-/* забираємо всі старі логотипи */
-.header .logo,
-.header .logo span,
-.logo-text{
+/* забрати зайві старі логотипи */
+
+.logo,
+.logo-text,
+.logo-icon{
     display:none !important;
 }
-
 
 
 /* FOOTER LOGO */
@@ -1417,14 +1414,14 @@ a{
 .footer-logo{
     display:flex !important;
     align-items:center !important;
-    margin-bottom:30px !important;
+    gap:12px !important;
 }
 
 
 .footer-logo img{
     width:130px !important;
     height:auto !important;
-    object-fit:contain !important;
+    display:block !important;
 }
 
 
@@ -1432,9 +1429,3 @@ a{
 
 .footer{
     background:#000 !important;
-}
-
-
-.footer-brand{
-    display:block !important;
-}
