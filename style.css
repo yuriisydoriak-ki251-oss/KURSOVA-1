@@ -704,11 +704,9 @@ a{
 
     overflow:hidden;
 
-    padding:160px 0;
+    padding:150px 0;
 
-    z-index:1;
 }
-
 
 .community-circle{
 
@@ -717,21 +715,17 @@ a{
     width:1200px;
     height:1200px;
 
-    border-radius:50%;
-
     background:#4f7cff;
 
+    border-radius:50%;
 
     left:50%;
-
-    bottom:-1000px;
+    bottom:-950px;
 
     transform:translateX(-50%);
 
     z-index:0;
-
 }
-
 
 .community-content{
 
