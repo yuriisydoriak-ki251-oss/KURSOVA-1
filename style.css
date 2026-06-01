@@ -1345,3 +1345,58 @@ a{
     object-fit:cover;
     border-radius:16px;
 }
+/* PLANE LOGO FIX */
+
+.plane-icon{
+    width:24px;
+    height:24px;
+    position:relative;
+}
+
+.plane-icon::before{
+    content:"";
+    position:absolute;
+
+    width:10px;
+    height:10px;
+
+    background:#3b6cff;
+
+    top:0;
+    left:10px;
+
+    box-shadow:
+    -10px 10px #3b6cff,
+     0px 10px #3b6cff,
+    -10px 20px #3b6cff;
+}
+
+
+/* HEADER */
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+
+.logo span{
+    font-size:28px;
+    color:#111827;
+}
+
+
+/* FOOTER */
+
+.footer-logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+
+.footer-logo span{
+    color:white;
+    font-size:28px;
+}
