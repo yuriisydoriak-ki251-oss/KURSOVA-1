@@ -1400,3 +1400,33 @@ a{
     color:white;
     font-size:28px;
 }
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+
+.nav-links{
+    display:flex;
+    gap:40px;
+}
+
+
+.nav-buttons{
+    display:flex;
+    gap:16px;
+}
+
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+
+.logo img{
+    width:26px;
+    height:26px;
+}
