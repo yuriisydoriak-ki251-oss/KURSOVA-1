@@ -1281,11 +1281,3 @@ a{
     margin-top:70px;
 
 }
-/* FIX BIG BLUE CIRCLE */
-
-.community-circle,
-.hosting-section::before{
-
-    display:none !important;
-
-}
