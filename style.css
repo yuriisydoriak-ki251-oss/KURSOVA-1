@@ -1399,6 +1399,11 @@ a{
     margin: 0 !important;
     padding: 0 !important;
 }
+
+.footer-logo img{
+    object-fit: cover !important;
+}
+
 /* якщо лишився старий текст */
 
 .logo-text,
