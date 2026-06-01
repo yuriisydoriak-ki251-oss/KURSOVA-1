@@ -940,17 +940,69 @@ a{
     gap:10px;
 }
 
-
-.footer-logo-icon{
-    width:20px;
-    height:20px;
-
-    display:grid;
-    grid-template-columns:1fr 1fr;
-
-    gap:3px;
+.footer-logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
 }
 
+
+/* Plane icon */
+
+.plane-icon{
+    width:18px;
+    height:18px;
+
+    position:relative;
+}
+
+
+.plane-icon span{
+    position:absolute;
+
+    width:7px;
+    height:7px;
+
+    background:#fff;
+}
+
+
+/* верхній квадрат */
+
+.plane-icon span:nth-child(1){
+
+    top:0;
+    left:7px;
+
+}
+
+
+/* середній */
+
+.plane-icon span:nth-child(2){
+
+    top:7px;
+    left:0;
+
+}
+
+
+/* нижній */
+
+.plane-icon span:nth-child(3){
+
+    top:7px;
+    left:7px;
+
+}
+
+
+.footer-logo span{
+    color:white;
+
+    font-size:22px;
+    font-weight:400;
+}
 
 .footer-logo-icon span{
     width:8px;
