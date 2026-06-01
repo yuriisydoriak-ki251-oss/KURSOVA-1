@@ -381,7 +381,21 @@ a{
 .feature-grid.reverse > *{
     direction:ltr;
 }
+/* EASY ADOPT NORMAL POSITION */
 
+.cycles-section{
+    direction: ltr !important;
+}
+
+
+.cycles-section .feature-image{
+    grid-column: 1 !important;
+}
+
+
+.cycles-section .feature-content{
+    grid-column: 2 !important;
+}
 .feature-tag{
     display:inline-block;
     padding:8px 16px;
