@@ -1638,31 +1638,53 @@ a{
     width: 520px !important;
 
 }
-/* ===== FIX FEATURE IMAGE SIZE ===== */
+/* ===== BIG CYCLES IMAGE FIX ===== */
 
-.cycles-section .gradient-card{
-
-    width: 650px !important;
-    height: 500px !important;
-
-    padding: 60px !important;
-
-    border-radius: 35px !important;
-
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-
-    overflow: hidden !important;
+.cycles-section{
+    grid-template-columns: 650px 1fr !important;
+    gap: 100px !important;
 }
 
 
-/* картинка всередині */
-.cycles-section .gradient-card img{
+/* весь лівий блок */
+.cycles-section .feature-image{
 
-    width: 560px !important;
+    width: 650px !important;
 
-    height: auto !important;
+}
 
-    object-fit: contain !important;
+
+/* синій фон */
+.cycles-section .feature-image .gradient-card{
+
+    width: 650px !important;
+
+    height: 500px !important;
+
+    padding: 0 !important;
+
+    background:#3465f4 !important;
+
+    border-radius:35px !important;
+
+    display:flex !important;
+
+    align-items:center !important;
+
+    justify-content:center !important;
+
+    overflow:hidden !important;
+
+}
+
+
+/* саме фото */
+.cycles-section .feature-image .gradient-card img{
+
+    width: 600px !important;
+
+    max-width:none !important;
+
+    height:auto !important;
+
 }
