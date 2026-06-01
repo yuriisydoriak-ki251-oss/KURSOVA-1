@@ -1345,27 +1345,24 @@ a{
     object-fit:cover;
     border-radius:16px;
 }
-/* ===== HEADER + FOOTER LOGO FIX ===== */
+/* ===== FINAL FIX ===== */
 
-
-/* HEADER */
+/* HEADER - ONLY IMAGE */
 .header .logo{
     display:flex !important;
     align-items:center !important;
-    gap:12px !important;
 }
 
-.header .logo img{
-    width:28px !important;
-    height:28px !important;
+.header .logo img,
+.header .logo .logo-img{
+    width:120px !important;
+    height:auto !important;
     object-fit:contain !important;
 }
 
+/* прибрати текст Plane тільки зверху */
 .header .logo span{
-    display:block !important;
-    color:#111827 !important;
-    font-size:28px !important;
-    font-weight:400 !important;
+    display:none !important;
 }
 
 
@@ -1379,54 +1376,10 @@ a{
 .footer-logo img{
     width:28px !important;
     height:28px !important;
-    object-fit:contain !important;
 }
 
 .footer-logo span{
     display:block !important;
     color:white !important;
     font-size:32px !important;
-    font-weight:400 !important;
-}
-
-/* ===== CHATGPT LOGO FIX ===== */
-
-/* HEADER: тільки фото */
-.header .logo{
-    display:flex !important;
-    align-items:center !important;
-    gap:0 !important;
-}
-
-.header .logo img,
-.header .logo .logo-img{
-    width:120px !important;
-    height:auto !important;
-    object-fit:contain !important;
-    display:block !important;
-}
-
-.header .logo span,
-.header .logo-text{
-    display:none !important;
-}
-
-/* FOOTER: лого + Plane */
-.footer-logo{
-    display:flex !important;
-    align-items:center !important;
-    gap:12px !important;
-}
-
-.footer-logo img{
-    width:32px !important;
-    height:32px !important;
-    object-fit:contain !important;
-}
-
-.footer-logo span{
-    display:block !important;
-    color:white !important;
-    font-size:34px !important;
-    font-weight:400 !important;
 }
