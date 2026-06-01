@@ -935,16 +935,16 @@ a{
 
 
 .footer-logo img{
-    width:22px;
+    width:26px;
+    height:26px;
+    object-fit:contain;
 }
-
 
 .footer-logo span{
     color:white;
-    font-size:28px;
-    font-weight:500;
+    font-size:22px;
+    font-weight:400;
 }
-
 
 .footer-brand h3{
     display:none;
