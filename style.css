@@ -546,24 +546,38 @@ a{
 /* =========================
    HOSTING SECTION
 ========================= */
-
 .hosting-section{
-    background:#071226;
-    padding:160px 0;
-    position:relative;
-    overflow:hidden;
-}
 
+    background:#071226;
+
+    padding:160px 0;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
 .hosting-section::before{
+
     content:'';
+
     position:absolute;
-    width:1400px;
-    height:1400px;
+
+    width:1000px;
+    height:1000px;
+
     border-radius:50%;
-    background:rgba(79,124,255,.08);
+
+    background:#4f7cff;
+
+
     left:50%;
-    top:-1000px;
+
+    bottom:-750px;
+
     transform:translateX(-50%);
+
+    z-index:0;
 }
 
 .hosting-card{
