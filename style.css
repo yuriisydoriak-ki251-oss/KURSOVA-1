@@ -1688,3 +1688,49 @@ a{
     height:auto !important;
 
 }
+/* ===== HARD FIX CYCLES SIZE ===== */
+
+.feature-section .feature-grid.cycles-section{
+    display:grid !important;
+    grid-template-columns: 700px 1fr !important;
+    gap:90px !important;
+}
+
+
+/* синя карточка */
+.feature-grid.cycles-section 
+.gradient-card{
+
+    width:700px !important;
+    height:520px !important;
+
+    min-width:700px !important;
+
+    padding:0 !important;
+
+    background:#3767f5 !important;
+
+    border-radius:36px !important;
+
+    overflow:hidden !important;
+
+    display:flex !important;
+    justify-content:center !important;
+    align-items:center !important;
+}
+
+
+/* картинка */
+.feature-grid.cycles-section 
+.gradient-card img{
+
+    width:620px !important;
+
+    min-width:620px !important;
+
+    height:auto !important;
+
+    max-width:none !important;
+
+    object-fit:contain !important;
+}
