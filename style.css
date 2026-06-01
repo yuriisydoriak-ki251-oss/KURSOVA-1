@@ -1378,14 +1378,14 @@ a{
 
     align-items:center !important;
 
-    gap:12px !important;
+    gap:10px !important;   /* було велике, робимо близько */
+
+    margin-bottom:35px;
 
 }
 
 
 .footer-logo img{
-
-    display:block !important;
 
     width:32px !important;
 
@@ -1398,16 +1398,13 @@ a{
 
 .footer-logo span{
 
-    display:block !important;
-
     color:white !important;
 
     font-size:32px !important;
 
-    font-weight:500;
+    font-weight:400;
 
 }
-
 
 /* якщо лишився старий текст */
 
