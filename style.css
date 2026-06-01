@@ -1452,3 +1452,46 @@ a{
 
     font-size:34px !important;
 }
+/* EASY ADOPT FIX */
+
+.cycles-section{
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 80px !important;
+}
+
+
+/* картинка зліва */
+.cycles-section .feature-image{
+    order: 1 !important;
+    width: 50%;
+}
+
+
+/* текст справа */
+.cycles-section .feature-content{
+    order: 2 !important;
+    width: 50%;
+}
+
+
+/* синій блок */
+.cycles-section .gradient-card{
+    background:#3867ff !important;
+    border-radius:8px !important;
+    padding:60px 0 !important;
+}
+
+
+/* картинка всередині */
+.cycles-section img{
+    width:100% !important;
+}
+
+
+/* сіра перша кнопка */
+.cycles-section .feature-item:first-child{
+    background:#f4f6fb !important;
+    border-radius:10px !important;
+}
