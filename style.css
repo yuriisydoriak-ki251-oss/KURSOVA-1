@@ -691,57 +691,79 @@ a{
     line-height:1.8;
 }
 
-/* =========================
-   COMMUNITY
+//* =========================
+   COMMUNITY FIX
 ========================= */
 
+
 .community{
+
     background:#071226;
+
     position:relative;
+
     overflow:hidden;
-    padding:180px 0;
+
+    padding:160px 0;
+
+    z-index:1;
 }
+
 
 .community-circle{
+
     position:absolute;
-    width:1800px;
-    height:1800px;
+
+    width:1200px;
+    height:1200px;
+
     border-radius:50%;
+
     background:#4f7cff;
-    bottom:-1550px;
+
+
     left:50%;
+
+    bottom:-1000px;
+
     transform:translateX(-50%);
+
+    z-index:0;
+
 }
+
 
 .community-content{
+
     position:relative;
+
     z-index:2;
-    max-width:900px;
-    margin:auto;
+
     text-align:center;
+
+    max-width:800px;
+
+    margin:0 auto;
+
 }
+
 
 .community-content h2{
-    color:#fff;
-    font-size:72px;
-    line-height:1.1;
-    margin-bottom:30px;
+
+    color:white;
+
+    font-size:50px;
+
 }
+
 
 .community-content p{
+
     color:#cbd5e1;
-    font-size:20px;
-    line-height:1.9;
-    margin-bottom:50px;
+
+    margin:25px 0;
+
 }
-
-.community-buttons{
-    display:flex;
-    justify-content:center;
-    gap:20px;
-}
-
-
 /* =========================
    RESPONSIVE
 ========================= */
