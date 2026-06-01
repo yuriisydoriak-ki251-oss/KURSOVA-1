@@ -1372,38 +1372,32 @@ a{
 
 /* НИЖНІЙ ЛОГОТИП */
 
-/* FOOTER LOGO FIX */
-
 .footer-logo{
     display: flex !important;
     align-items: center !important;
-    justify-content: flex-start !important;
-    gap: 12px !important;
+    gap: 8px !important;
 
     margin-bottom: 35px !important;
 }
 
 
 .footer-logo img{
-    width: 32px !important;
-    height: 32px !important;
-
-    object-fit: contain !important;
+    width: 24px !important;
+    height: 24px !important;
 
     display: block !important;
+    object-fit: contain !important;
 }
 
 
 .footer-logo span{
-    display: block !important;
-
     color: white !important;
 
-    font-size: 34px !important;
-
-    line-height: 1 !important;
+    font-size: 32px !important;
+    line-height: 32px !important;
 
     margin: 0 !important;
+    padding: 0 !important;
 }
 /* якщо лишився старий текст */
 
