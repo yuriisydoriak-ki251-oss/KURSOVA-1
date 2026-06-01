@@ -1560,3 +1560,27 @@ a{
 .cycles-section .feature-content{
     order: 2 !important;
 }
+/* EASY ADOPT FINAL */
+
+.feature-grid{
+
+    display:grid !important;
+
+    grid-template-columns: 1fr 1fr !important;
+
+    gap:80px !important;
+
+    align-items:center !important;
+}
+
+
+.feature-image{
+
+    grid-column:auto !important;
+}
+
+
+.feature-content{
+
+    grid-column:auto !important;
+}
