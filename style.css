@@ -934,12 +934,37 @@ a{
 }
 
 
-.footer-logo img{
-    width:26px;
-    height:26px;
-    object-fit:contain;
+.footer-logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
 }
 
+
+.footer-logo-icon{
+    width:20px;
+    height:20px;
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+
+    gap:3px;
+}
+
+
+.footer-logo-icon span{
+    width:8px;
+    height:8px;
+
+    background:white;
+}
+
+
+.footer-logo span{
+    color:white;
+    font-size:24px;
+    font-weight:400;
+}
 .footer-logo span{
     color:white;
     font-size:22px;
