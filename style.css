@@ -1584,3 +1584,64 @@ a{
 
     grid-column:auto !important;
 }
+/* ===== FIX CYCLES BLOCK ===== */
+
+.feature-section{
+    padding:120px 0 !important;
+}
+
+
+.feature-grid{
+    display:grid !important;
+    grid-template-columns:1fr 1fr !important;
+    gap:80px !important;
+    align-items:center !important;
+}
+
+
+/* ліва синя картка */
+.feature-image{
+    width:100% !important;
+}
+
+
+.gradient-card{
+    width:520px !important;
+    height:420px !important;
+
+    background:#3465f5 !important;
+
+    border-radius:32px !important;
+
+    display:flex !important;
+    justify-content:center !important;
+    align-items:center !important;
+
+    overflow:hidden !important;
+}
+
+
+/* сама картинка */
+.gradient-card img{
+
+    width:430px !important;
+
+    height:auto !important;
+
+    object-fit:contain !important;
+}
+
+
+/* правий текст */
+.feature-content h2{
+
+    font-size:48px !important;
+
+    line-height:1.15 !important;
+
+}
+
+
+.feature-text{
+
+    max-width:520px !important;
