@@ -1137,3 +1137,112 @@ a{
     font-size:18px;
 
 }
+/* FOOTER FINAL FIX */
+
+.footer{
+    background:#000000 !important;
+    padding:70px 0 40px;
+}
+
+
+.footer *{
+    box-sizing:border-box;
+}
+
+
+.footer-grid{
+
+    display:grid;
+
+    grid-template-columns:
+        300px
+        160px
+        220px
+        160px
+        170px;
+
+    justify-content:space-between;
+
+    gap:50px;
+
+}
+
+
+.footer-logo img{
+    width:95px;
+}
+
+
+.footer-brand p{
+
+    color:#ffffff;
+
+    line-height:1.8;
+
+    margin-bottom:25px;
+
+}
+
+
+.discord-btn{
+
+    background:white !important;
+
+    color:#111 !important;
+
+    padding:12px 25px;
+
+    border-radius:6px;
+
+}
+
+
+.footer-column h4{
+
+    color:white;
+
+    font-size:18px;
+
+    margin-bottom:18px;
+
+}
+
+
+.footer-column a{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+
+    color:#d1d5db;
+
+    margin-bottom:15px;
+
+}
+
+
+.footer-column i{
+
+    display:inline-block;
+
+    color:white;
+
+    font-size:18px;
+
+    width:20px;
+
+}
+
+
+.footer-bottom{
+
+    text-align:center;
+
+    color:#cbd5e1;
+
+    margin-top:70px;
+
+}
