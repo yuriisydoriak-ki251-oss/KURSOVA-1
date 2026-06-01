@@ -949,23 +949,22 @@ a{
 
 /* Plane icon */
 
-.plane-icon{
-    width:18px;
-    height:18px;
+.footer-logo{
+    display:flex;
+    align-items:center;
 
-    position:relative;
+    margin-bottom:25px;
 }
 
 
-.plane-icon span{
-    position:absolute;
+.footer-logo img{
 
-    width:7px;
-    height:7px;
+    width:96px;
+    height:auto;
 
-    background:#fff;
+    object-fit:contain;
+
 }
-
 
 /* верхній квадрат */
 
