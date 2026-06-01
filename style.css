@@ -917,3 +917,73 @@ a{
         font-size:40px;
     }
 } 
+/* FOOTER FIX FIGMA */
+
+
+.footer{
+    background:#000;
+}
+
+
+.footer-logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+
+    margin-bottom:25px;
+}
+
+
+.footer-logo img{
+    width:22px;
+}
+
+
+.footer-logo span{
+    color:white;
+    font-size:28px;
+    font-weight:500;
+}
+
+
+.footer-brand h3{
+    display:none;
+}
+
+
+/* Discord button */
+
+.discord-btn{
+
+    background:white;
+    color:#111;
+
+    padding:12px 25px;
+
+    border-radius:6px;
+
+    font-weight:500;
+
+}
+
+
+/* community icons */
+
+.footer-column a{
+
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+}
+
+
+.footer-column i{
+
+    width:18px;
+
+    color:white;
+
+    font-size:18px;
+
+}
