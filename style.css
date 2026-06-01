@@ -1345,88 +1345,46 @@ a{
     object-fit:cover;
     border-radius:16px;
 }
-/* PLANE LOGO FIX */
-
-.plane-icon{
-    width:24px;
-    height:24px;
-    position:relative;
-}
-
-.plane-icon::before{
-    content:"";
-    position:absolute;
-
-    width:10px;
-    height:10px;
-
-    background:#3b6cff;
-
-    top:0;
-    left:10px;
-
-    box-shadow:
-    -10px 10px #3b6cff,
-     0px 10px #3b6cff,
-    -10px 20px #3b6cff;
-}
+/* ===== HEADER + FOOTER LOGO FIX ===== */
 
 
 /* HEADER */
-
-.logo{
-    display:flex;
-    align-items:center;
-    gap:12px;
+.header .logo{
+    display:flex !important;
+    align-items:center !important;
+    gap:12px !important;
 }
 
+.header .logo img{
+    width:28px !important;
+    height:28px !important;
+    object-fit:contain !important;
+}
 
-.logo span{
-    font-size:28px;
-    color:#111827;
+.header .logo span{
+    display:block !important;
+    color:#111827 !important;
+    font-size:28px !important;
+    font-weight:400 !important;
 }
 
 
 /* FOOTER */
-
 .footer-logo{
-    display:flex;
-    align-items:center;
-    gap:12px;
+    display:flex !important;
+    align-items:center !important;
+    gap:12px !important;
 }
 
+.footer-logo img{
+    width:28px !important;
+    height:28px !important;
+    object-fit:contain !important;
+}
 
 .footer-logo span{
-    color:white;
-    font-size:28px;
-}
-.navbar{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-}
-
-
-.nav-links{
-    display:flex;
-    gap:40px;
-}
-
-
-.nav-buttons{
-    display:flex;
-    gap:16px;
-}
-
-
-.logo{
-    display:flex;
-    align-items:center;
-    gap:12px;
-}
-
-
-.logo img{
-    width:26px;
-    height:26px;
+    display:block !important;
+    color:white !important;
+    font-size:32px !important;
+    font-weight:400 !important;
 }
