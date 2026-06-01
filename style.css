@@ -1252,9 +1252,24 @@ a{
     text-decoration:none;
 
 }
+/* ===== FIX BLUE CIRCLE ===== */
 
+.hero::before,
+.hero::after,
+.dashboard::before,
+.dashboard::after,
+.hero-image::before,
+.hero-image::after,
+.hosting-section::before,
+.hosting-section::after,
+.community::before,
+.community::after,
+.community-circle {
 
-/* ICONS */
+    display: none !important;
+    content: none !important;
+
+}
 
 
 .footer-column i{
