@@ -1332,3 +1332,25 @@ object-fit:cover;
 border-radius:16px;
 
 }
+.footer-logo{
+
+display:flex;
+align-items:center;
+gap:12px;
+
+font-size:26px;
+font-weight:500;
+
+color:white;
+
+}
+
+
+.footer-logo img{
+
+width:22px;
+height:22px;
+
+object-fit:contain;
+
+}
