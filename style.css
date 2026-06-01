@@ -375,11 +375,7 @@ a{
 }
 
 .feature-grid.reverse{
-    direction:rtl;
-}
-
-.feature-grid.reverse > *{
-    direction:ltr;
+    direction: ltr;
 }
 /* EASY ADOPT NORMAL POSITION */
 
@@ -1554,4 +1550,13 @@ a{
     width:100% !important;
 
     display:block !important;
+}
+/* EASY ADOPT FIX */
+
+.cycles-section .feature-image{
+    order: 1 !important;
+}
+
+.cycles-section .feature-content{
+    order: 2 !important;
 }
