@@ -1415,3 +1415,34 @@ a{
     display:none !important;
 
 }
+/* ===== FIX FOOTER LOGO FINAL ===== */
+
+.footer-logo{
+    display:flex !important;
+    align-items:center !important;
+    gap:10px !important;
+}
+
+
+.footer-logo img{
+    display:inline-block !important;
+
+    width:32px !important;
+    height:32px !important;
+
+    min-width:32px !important;
+
+    opacity:1 !important;
+    visibility:visible !important;
+
+    object-fit:contain !important;
+}
+
+
+.footer-logo span{
+    display:block !important;
+
+    color:#fff !important;
+
+    font-size:34px !important;
+}
