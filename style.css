@@ -1383,3 +1383,45 @@ a{
     color:white !important;
     font-size:32px !important;
 }
+/* ===== LOGO FINAL FIX ===== */
+
+
+/* верхній логотип */
+.header-logo{
+    display:flex;
+    align-items:center;
+}
+
+
+.header-logo img{
+    width:110px !important;
+    height:auto !important;
+    object-fit:contain;
+}
+
+
+/* забрати старі конфлікти */
+.header .logo,
+.logo-text{
+    display:none !important;
+}
+
+
+
+/* нижній логотип */
+.footer-logo{
+    display:flex !important;
+    align-items:center;
+}
+
+
+.footer-logo img{
+    width:120px !important;
+    height:auto !important;
+}
+
+
+/* чорний футер */
+.footer{
+    background:#000 !important;
+}
