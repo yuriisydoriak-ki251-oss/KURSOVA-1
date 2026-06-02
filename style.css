@@ -1,7 +1,3 @@
-/* =========================
-   RESET
-========================= */
-
 *{
     margin:0;
     padding:0;
@@ -34,10 +30,6 @@ a{
     margin:0 auto;
     padding:0 24px;
 }
-
-/* =========================
-   HEADER
-========================= */
 
 .header{
     position:sticky;
@@ -119,8 +111,6 @@ a{
     transition:.3s;
 }
 
-
-/* наведення */
 .btn-sign:hover{
     background:#2557e8;
 }
@@ -130,9 +120,6 @@ a{
     background:#3f73ff;
     color:white;
 }
-/* =========================
-   HERO
-========================= */
 
 .hero{
     padding:100px 0;
@@ -201,10 +188,6 @@ a{
     font-weight:700;
     padding:18px 10px;
 }
-
-/* =========================
-   DASHBOARD
-========================= */
 
 .dashboard-wrapper{
     margin-top:90px;
@@ -325,10 +308,7 @@ a{
     margin-top:10px;
     color:#64748b;
     font-weight:400;
-} /* =========================
-   TRUSTED
-========================= */
-
+} 
 .trusted{
     padding:90px 0;
     text-align:center;
@@ -358,10 +338,6 @@ a{
     font-weight:700;
     color:#94a3b8;
 }
-
-/* =========================
-   FEATURES
-========================= */
 
 .feature-section{
     padding:140px 0;
@@ -448,11 +424,8 @@ a{
 .feature-item p{
     color:#64748b;
     line-height:1.7;
-}
 
-/* =========================
-   IMAGE CARDS
-========================= */
+}
 
 .gradient-card{
     background:linear-gradient(
@@ -470,10 +443,6 @@ a{
     border-radius:18px;
     box-shadow:0 30px 80px rgba(0,0,0,.18);
 }
-
-/* =========================
-   INTEGRATION CARD
-========================= */
 
 .integration-card{
     background:linear-gradient(
@@ -526,10 +495,6 @@ a{
     font-weight:600;
 }
 
-/* =========================
-   HOVER EFFECTS
-========================= */
-
 .feature-item{
     transition:.3s;
 }
@@ -553,9 +518,7 @@ a{
 .integration-card:hover{
     transform:translateY(-8px);
 } 
-/* =========================
-   HOSTING SECTION
-========================= */
+
 .hosting-section{
 
     background:#071226;
@@ -570,8 +533,6 @@ a{
 .hosting-section::before{
 
     content:'';
-
-    position:absolute;
 
     width:1000px;
     height:1000px;
@@ -632,10 +593,6 @@ a{
     padding:18px 10px;
 }
 
-/* =========================
-   STATS
-========================= */
-
 .stats-circle{
     margin-top:100px;
 }
@@ -660,10 +617,6 @@ a{
     color:#94a3b8;
     font-size:18px;
 }
-
-/* =========================
-   EXTRA FEATURES
-========================= */
 
 .extra-features{
     padding:140px 0;
@@ -715,11 +668,6 @@ a{
     line-height:1.8;
 }
 
-//* =========================
-   COMMUNITY FIX
-========================= */
-
-
 .community{
 
     background:#071226;
@@ -733,8 +681,6 @@ a{
 }
 
 .community-circle{
-
-    position:absolute;
 
     width:1200px;
     height:1200px;
@@ -782,9 +728,6 @@ a{
     margin:25px 0;
 
 }
-/* =========================
-   RESPONSIVE
-========================= */
 
 @media(max-width:1200px){
 
@@ -900,13 +843,10 @@ a{
         font-size:40px;
     }
 } 
-/* FOOTER FIX FIGMA */
-
 
 .footer{
     background:#000;
 }
-
 
 .footer-logo{
     display:flex;
@@ -916,7 +856,6 @@ a{
     margin-bottom:25px;
 }
 
-
 .footer-logo{
     display:flex;
     align-items:center;
@@ -928,9 +867,6 @@ a{
     align-items:center;
     gap:10px;
 }
-
-
-/* Plane icon */
 
 .footer-logo{
     display:flex;
@@ -938,7 +874,6 @@ a{
 
     margin-bottom:25px;
 }
-
 
 .footer-logo img{
 
@@ -949,17 +884,12 @@ a{
 
 }
 
-/* верхній квадрат */
-
 .plane-icon span:nth-child(1){
 
     top:0;
     left:7px;
 
 }
-
-
-/* середній */
 
 .plane-icon span:nth-child(2){
 
@@ -968,16 +898,12 @@ a{
 
 }
 
-
-/* нижній */
-
 .plane-icon span:nth-child(3){
 
     top:7px;
     left:7px;
 
 }
-
 
 .footer-logo span{
     color:white;
@@ -1009,9 +935,6 @@ a{
     display:none;
 }
 
-
-/* Discord button */
-
 .discord-btn{
 
     background:white;
@@ -1024,9 +947,6 @@ a{
     font-weight:500;
 
 }
-
-
-/* community icons */
 
 .footer-column a{
 
@@ -1046,7 +966,6 @@ a{
     font-size:18px;
 
 }
-/* FOOTER FINAL FIX */
 
 .footer{
     background:#000000 !important;
@@ -1155,9 +1074,6 @@ a{
     margin-top:70px;
 
 }
-/* ====================
-   FOOTER FINAL
-==================== */
 
 .footer{
     background:#000 !important;
@@ -1185,10 +1101,6 @@ a{
     gap:60px;
 }
 
-
-/* LOGO */
-
-
 .footer-logo{
     margin-bottom:25px;
 }
@@ -1197,10 +1109,6 @@ a{
 .footer-logo img{
     width:100px;
 }
-
-
-/* QUESTIONS */
-
 
 .footer-brand p{
 
@@ -1232,10 +1140,6 @@ a{
     text-decoration:none;
 }
 
-
-/* COLUMNS */
-
-
 .footer-column h4{
 
     color:#fff !important;
@@ -1261,8 +1165,7 @@ a{
 
     text-decoration:none;
 
-}
-/* ===== FIX BLUE CIRCLE ===== */
+} 
 
 .hero::before,
 .hero::after,
@@ -1281,7 +1184,6 @@ a{
 
 }
 
-
 .footer-column i{
 
     display:block;
@@ -1293,10 +1195,6 @@ a{
     width:20px;
 }
 
-
-/* COPYRIGHT */
-
-
 .footer-bottom{
 
     text-align:center;
@@ -1306,8 +1204,6 @@ a{
     margin-top:70px;
 
 }
-
-/* IMAGES + LOGO FINAL FIX */
 
 .logo{
     display:flex;
@@ -1355,10 +1251,6 @@ a{
     object-fit:cover;
     border-radius:16px;
 }
-/* ===== LOGO FIX 100% ===== */
-
-
-/* ВЕРХНІЙ ЛОГОТИП */
 
 .header-logo{
     display:flex !important;
@@ -1377,10 +1269,6 @@ a{
     object-fit:contain !important;
 
 }
-
-
-
-/* НИЖНІЙ ЛОГОТИП */
 
 .footer-logo{
 
@@ -1423,15 +1311,12 @@ a{
     padding: 0 !important;
 }
 
-/* якщо лишився старий текст */
-
 .logo-text,
 .logo-icon{
 
     display:none !important;
 
 }
-/* ===== FIX FOOTER LOGO FINAL ===== */
 
 .footer-logo{
     display:flex !important;
@@ -1462,7 +1347,6 @@ a{
 
     font-size:34px !important;
 }
-/* EASY ADOPT FIX */
 
 .cycles-section{
     display: flex !important;
@@ -1471,40 +1355,30 @@ a{
     gap: 80px !important;
 }
 
-
-/* картинка зліва */
 .cycles-section .feature-image{
     order: 1 !important;
     width: 50%;
 }
 
-
-/* текст справа */
 .cycles-section .feature-content{
     order: 2 !important;
     width: 50%;
 }
 
-
-/* синій блок */
 .cycles-section .gradient-card{
     background:#3867ff !important;
     border-radius:8px !important;
     padding:60px 0 !important;
 }
 
-
-/* картинка всередині */
 .cycles-section img{
     width:100% !important;
 }
 
-
-/* сіра перша кнопка */
 .cycles-section .feature-item:first-child{
     background:#f4f6fb !important;
     border-radius:10px !important;
-}/* ===== EASY ADOPT 100% FIX ===== */
+}
 
 .feature-grid.cycles-section{
 
@@ -1517,24 +1391,18 @@ a{
     align-items: center !important;
 }
 
-
-/* КАРТИНКА ЗЛІВА */
 .feature-grid.cycles-section .feature-image{
 
     grid-column: 1 !important;
     grid-row: 1 !important;
 }
 
-
-/* ТЕКСТ СПРАВА */
 .feature-grid.cycles-section .feature-content{
 
     grid-column: 2 !important;
     grid-row: 1 !important;
 }
 
-
-/* синій блок */
 .feature-grid.cycles-section .gradient-card{
 
     background:#3867ff !important;
@@ -1551,7 +1419,6 @@ a{
 
     display:block !important;
 }
-/* EASY ADOPT FIX */
 
 .cycles-section .feature-image{
     order: 1 !important;
@@ -1560,7 +1427,6 @@ a{
 .cycles-section .feature-content{
     order: 2 !important;
 }
-/* EASY ADOPT FINAL */
 
 .feature-grid{
 
@@ -1584,7 +1450,6 @@ a{
 
     grid-column:auto !important;
 }
-/* ===== FIX FEATURE TEXT ===== */
 
 .feature-grid{
     grid-template-columns: 1fr 1fr !important;
@@ -1592,14 +1457,10 @@ a{
     align-items: center !important;
 }
 
-
-/* права частина з текстом */
 .feature-content{
     max-width: 520px !important;
 }
 
-
-/* заголовок */
 .feature-content h2{
 
     font-size: 42px !important;
@@ -1611,8 +1472,6 @@ a{
     margin-bottom: 24px !important;
 }
 
-
-/* опис */
 .feature-text{
 
     font-size: 18px !important;
@@ -1622,8 +1481,6 @@ a{
     max-width: 520px !important;
 }
 
-
-/* блоки Visualize */
 .feature-item{
 
     width: 100% !important;
@@ -1631,30 +1488,23 @@ a{
     padding: 16px !important;
 }
 
-
-/* щоб EASY ADOPT не стискав текст */
 .cycles-section .feature-content{
 
     width: 520px !important;
 
 }
-/* ===== BIG CYCLES IMAGE FIX ===== */
 
 .cycles-section{
     grid-template-columns: 650px 1fr !important;
     gap: 100px !important;
 }
 
-
-/* весь лівий блок */
 .cycles-section .feature-image{
 
     width: 650px !important;
 
 }
 
-
-/* синій фон */
 .cycles-section .feature-image .gradient-card{
 
     width: 650px !important;
@@ -1719,8 +1569,6 @@ a{
     align-items:center !important;
 }
 
-
-/* картинка */
 .feature-grid.cycles-section 
 .gradient-card img{
 
