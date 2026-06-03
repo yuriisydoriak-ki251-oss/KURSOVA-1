@@ -1605,17 +1605,13 @@ a{
     border:none !important;
 }
 .footer-logo{
-    width:250px !important;
-    height:auto !important;
-
-    margin-bottom:60px !important;
-
     display:block !important;
+    margin-bottom:60px !important;
 }
 
 
 .footer-logo img{
-    width:100% !important;
+    width:220px !important;
     height:auto !important;
 
     display:block !important;
