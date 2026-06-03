@@ -1521,8 +1521,6 @@ a{
 
 }
 
-
-/* саме фото */
 .cycles-section .feature-image .gradient-card img{
 
     width: 600px !important;
@@ -1532,7 +1530,6 @@ a{
     height:auto !important;
 
 }
-/* ===== HARD FIX CYCLES SIZE ===== */
 
 .feature-section .feature-grid.cycles-section{
     display:grid !important;
@@ -1575,4 +1572,75 @@ a{
     max-width:none !important;
 
     object-fit:contain !important;
+}
+
+.hero-img{
+
+    width:100%;
+    height:auto;
+
+    display:block;
+
+    margin:auto;
+}
+
+.footer-logo{
+
+    display:flex !important;
+
+    align-items:center !important;
+
+    gap:12px !important;
+}
+
+
+.footer-logo img{
+
+    width:50px !important;
+    height:50px !important;
+
+
+    object-fit:cover !important;
+
+    object-position:left center !important;
+
+    clip-path:inset(0 65% 0 0) !important;
+
+
+    transform:scale(2.2) !important;
+
+
+    margin-right:-8px !important;
+}
+
+
+.footer-logo span{
+
+    color:white !important;
+
+    font-size:42px !important;
+
+    line-height:42px !important;
+}
+.gradient-card{
+
+    overflow:hidden !important;
+}
+
+.gradient-card img{
+
+    object-fit:contain !important;
+}
+
+.hero::before,
+.hero::after,
+.hosting-section::before,
+.hosting-section::after,
+.community::before,
+.community::after,
+.community-circle{
+
+    display:none !important;
+
+    content:none !important;
 }
