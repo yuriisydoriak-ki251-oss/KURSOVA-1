@@ -1659,12 +1659,15 @@ a{
     width:45px !important;
     height:45px !important;
 
-    object-fit:contain !important;
+    object-fit:cover !important;
+    object-position:left center !important;
 
-    transform:none !important;
-    clip-path:none !important;
+    clip-path:inset(0 60% 0 0) !important;
 
-    margin:0 !important;
+    transform:scale(2.5) !important;
+    transform-origin:left center !important;
+
+    margin-right:-55px !important;
 }
 .footer-logo span{
 
