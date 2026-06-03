@@ -1644,34 +1644,18 @@ a{
 }
 
 .footer-logo{
-    display:flex !important;
-    align-items:center !important;
-    gap:12px !important;
-
     margin-bottom:60px !important;
 }
 
 
 .footer-logo img{
-    width:45px !important;
-    height:45px !important;
+    width:220px !important;
+    height:auto !important;
 
     object-fit:contain !important;
 
     transform:none !important;
     clip-path:none !important;
-
-    margin:0 !important;
-}
-
-
-.footer-logo span{
-    color:white !important;
-
-    font-size:64px !important;
-    line-height:64px !important;
-
-    font-weight:400 !important;
 
     margin:0 !important;
 }
