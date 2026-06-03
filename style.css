@@ -1682,3 +1682,36 @@ a{
     line-height:38px !important;
     color:#fff !important;
 }
+
+/* ===== FOOTER LOGO FINAL FIX ===== */
+
+.footer-logo{
+    display:flex !important;
+    align-items:center !important;
+    gap:18px !important;
+    overflow:visible !important;
+}
+
+.footer-logo img{
+    width:75px !important;
+    height:75px !important;
+    min-width:75px !important;
+
+    object-fit:contain !important;
+    object-position:center !important;
+
+    clip-path:none !important;
+    transform:none !important;
+
+    margin:0 !important;
+}
+
+.footer-logo span{
+    color:white !important;
+
+    font-size:46px !important;
+    line-height:46px !important;
+
+    font-weight:400 !important;
+}
+
