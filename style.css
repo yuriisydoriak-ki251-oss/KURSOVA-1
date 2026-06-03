@@ -1644,68 +1644,41 @@ a{
 
     content:none !important;
 }
-/* ===== FIX DASHBOARD + FOOTER LOGO ===== */
 
-
-/* прибираємо старий намальований dashboard */
+/* ===== FIXED BY CHATGPT ===== */
 .old-dashboard{
     display:none !important;
 }
 
-
-/* залишаємо тільки картинку hero.png */
-.hero-img{
-
-    display:block !important;
-
-    width:100% !important;
-
-    height:auto !important;
-
+.dashboard-wrapper{
+    margin-top:90px !important;
 }
 
-
-
-/* нормальний footer logo */
+.hero-img{
+    display:block !important;
+    width:100% !important;
+    height:auto !important;
+    border:0 !important;
+}
 
 .footer-logo{
-
     display:flex !important;
-
     align-items:center !important;
-
-    gap:10px !important;
-
+    gap:12px !important;
 }
-
 
 .footer-logo img{
-
-    width:38px !important;
-
-    height:38px !important;
-
-
-    object-fit:cover !important;
-
-    object-position:left center !important;
-
-
-    clip-path:inset(0 65% 0 0) !important;
-
-
-    transform:scale(1.7) !important;
-
-
-    margin-right:-5px !important;
-
+    width:42px !important;
+    height:42px !important;
+    min-width:42px !important;
+    object-fit:contain !important;
+    clip-path:none !important;
+    transform:none !important;
+    margin:0 !important;
 }
 
-
 .footer-logo span{
-
-    font-size:40px !important;
-
-    line-height:40px !important;
-
+    font-size:38px !important;
+    line-height:38px !important;
+    color:#fff !important;
 }
