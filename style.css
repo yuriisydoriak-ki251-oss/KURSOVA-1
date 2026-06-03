@@ -1285,22 +1285,29 @@ a{
 
 .footer-logo img{
 
-    width: 70px !important;
-    height: 70px !important;
+    width: 60px !important;
+    height: 60px !important;
 
     display:block !important;
 
-    object-fit:contain !important;
+    object-fit: cover !important;
 
-    transform: none !important;
+    object-position: left center !important;
 
-    margin-right: 5px !important;
+    /* залишає тільки синю іконку */
+    clip-path: inset(0 65% 0 0);
+
+    transform: scale(2.8);
+
+    margin-right: -10px !important;
 }
+
 
 .footer-logo span{
 
-    font-size:45px !important;
-    line-height:45px !important;
+    font-size:42px !important;
+
+    line-height:42px !important;
 
 }
 
