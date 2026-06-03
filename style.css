@@ -1315,22 +1315,25 @@ a{
 .footer-logo{
     display:flex !important;
     align-items:center !important;
-    gap:10px !important;
+    justify-content:flex-start !important;
+
+    gap:12px !important;
+
+    margin-bottom:40px !important;
 }
 
 
 .footer-logo img{
-    display:inline-block !important;
+    display:block !important;
 
-    width:32px !important;
-    height:32px !important;
-
-    min-width:32px !important;
-
-    opacity:1 !important;
-    visibility:visible !important;
+    width:60px !important;
+    height:60px !important;
 
     object-fit:contain !important;
+
+    margin:0 !important;
+
+    transform:none !important;
 }
 
 
@@ -1339,7 +1342,12 @@ a{
 
     color:#fff !important;
 
-    font-size:34px !important;
+    font-size:56px !important;
+    line-height:56px !important;
+
+    font-weight:400 !important;
+
+    margin:0 !important;
 }
 
 .cycles-section{
@@ -1537,8 +1545,6 @@ a{
     gap:90px !important;
 }
 
-
-/* синя карточка */
 .feature-grid.cycles-section 
 .gradient-card{
 
@@ -1642,38 +1648,32 @@ a{
     align-items:center !important;
     justify-content:flex-start !important;
 
-    gap:14px !important;
+    gap:10px !important;
 
-    margin-bottom:40px !important;
+    margin:0 0 30px 0 !important;
 
-    overflow:visible !important;
+    width:auto !important;
 }
-
-
 .footer-logo img{
 
-    display:block !important;
-
-    width:48px !important;
-    height:48px !important;
-
-    min-width:48px !important;
+    width:45px !important;
+    height:45px !important;
 
     object-fit:contain !important;
 
-    clip-path:none !important;
     transform:none !important;
+    clip-path:none !important;
 
     margin:0 !important;
 }
-
-
 .footer-logo span{
 
     color:white !important;
 
-    font-size:46px !important;
-    line-height:46px !important;
+    font-size:52px !important;
+    line-height:52px !important;
 
     font-weight:400 !important;
+
+    margin:0 !important;
 }
