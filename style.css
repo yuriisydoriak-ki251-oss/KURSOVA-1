@@ -1655,13 +1655,17 @@ a{
     margin-top:-250px;
 }
 .community-circle{
-    width:900px;
-    height:450px;
+    width:700px;
+    height:350px;
+
     background:#3d63d8;
 
-    border-radius:900px 900px 0 0;
+    border-radius:700px 700px 0 0;
 
-    margin:50px auto -350px;
+    margin:70px auto -250px;
 
     display:block;
+} 
+.community{
+    padding:120px 0 0;
 }
