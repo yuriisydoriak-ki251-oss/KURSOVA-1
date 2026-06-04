@@ -353,17 +353,14 @@ a{
 .feature-grid.reverse{
     direction: ltr;
 }
-/* EASY ADOPT NORMAL POSITION */
 
 .cycles-section{
     direction: ltr ;
 }
 
-
 .cycles-section .feature-image{
     grid-column: 1 ;
 }
-
 
 .cycles-section .feature-content{
     grid-column: 2 ;
@@ -1641,4 +1638,19 @@ a{
         grid-template-columns: 1fr;
     }
 
+}
+.blue-circle{
+    width:900px;
+    height:450px;
+
+    background:#3d63d8;
+
+    border-radius:900px 900px 0 0;
+
+    margin:-120px auto 0;
+
+    display:block;
+}
+.stats-circle{
+    margin-top:-250px;
 }
