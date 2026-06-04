@@ -1654,3 +1654,14 @@ a{
 .stats-circle{
     margin-top:-250px;
 }
+.community-circle{
+    width:900px;
+    height:450px;
+    background:#3d63d8;
+
+    border-radius:900px 900px 0 0;
+
+    margin:50px auto -350px;
+
+    display:block;
+}
