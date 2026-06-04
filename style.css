@@ -1164,23 +1164,6 @@ a{
 
 } 
 
-.hero::before,
-.hero::after,
-.dashboard::before,
-.dashboard::after,
-.hero-image::before,
-.hero-image::after,
-.hosting-section::before,
-.hosting-section::after,
-.community::before,
-.community::after,
-.community-circle {
-
-    display: none ;
-    content: none ;
-
-}
-
 .footer-column i{
 
     display:block;
