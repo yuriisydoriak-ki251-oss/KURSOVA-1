@@ -1655,16 +1655,17 @@ a{
     height: 650px;
 }
 
+
 .community {
     background: #071226;
 
-    padding-top: 100px;
+    padding-top: 90px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    height: 620px;
+    height: 720px;
 }
 
 
@@ -1676,10 +1677,7 @@ a{
 
     border-radius: 900px 900px 0 0;
 
-    margin-top: 0px;
-    margin-left: auto;
-    margin-right: auto;
-}
+    margin-top: 60px;
 }
 .footer-column a{
     display:flex;
