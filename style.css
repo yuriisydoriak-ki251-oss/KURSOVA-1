@@ -1683,3 +1683,14 @@ a{
     margin-top:160px;
     margin-bottom:-350px;
 }
+.footer-column a{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+
+.footer-column i{
+    font-size:18px;
+    color:white;
+}
