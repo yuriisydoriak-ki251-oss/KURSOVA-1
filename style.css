@@ -1641,17 +1641,21 @@ a{
 
     padding-top: 70px;
 
-    min-height: 560px;
+    min-height: 600px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+
 .community-content {
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
 }
+
+
 .community-circle {
     width: 1000px;
     height: 500px;
@@ -1660,7 +1664,7 @@ a{
 
     border-radius: 1000px 1000px 0 0;
 
-    margin: -40px auto 0 auto;
+    margin: 40px auto 0 auto;
 }
 .footer-column a{
     display:flex;
