@@ -1656,13 +1656,20 @@ a{
 }
 .community{
     background:#071226;
-    padding:120px 0 200px;
+    padding:120px 0 0;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 }
+
+
 .community-content{
     text-align:center;
     max-width:800px;
     margin:0 auto;
 }
+
 
 .community-circle{
     width:900px;
@@ -1672,7 +1679,6 @@ a{
 
     border-radius:900px 900px 0 0;
 
-    margin:100px auto -450px;
-
-    display:block;
+    margin-top:80px;
+    margin-bottom:-300px;
 }
