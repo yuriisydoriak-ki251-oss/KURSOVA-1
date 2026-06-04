@@ -1638,10 +1638,8 @@ a{
 }
 .community {
     background: #071226;
-
     padding-top: 70px;
-
-    min-height: 600px;
+    min-height: 550px;
 
     display: flex;
     flex-direction: column;
@@ -1653,6 +1651,9 @@ a{
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
+
+    position: relative;
+    z-index: 2;
 }
 
 
@@ -1664,7 +1665,9 @@ a{
 
     border-radius: 1000px 1000px 0 0;
 
-    margin: 40px auto 0 auto;
+    margin: -80px auto 0 auto;
+
+    z-index: 1;
 }
 .footer-column a{
     display:flex;
