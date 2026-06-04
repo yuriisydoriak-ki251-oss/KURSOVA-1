@@ -1634,31 +1634,32 @@ a{
 .stats-circle{
     margin-top:-250px;
 }
-.community{
-    background:#071226;
-    padding-top:90px;
+.community {
+    background: #071226;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+}}
 
-    display:flex;
-    flex-direction:column;
-    align-items:center;
+.community-content {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.community-content{
-    text-align:center;
-    max-width:800px;
-    margin:0 auto;
+.community-circle {
+    width: 600px;
+    height: 300px;
+    background: #3d63d8;
+    border-radius: 600px 600px 0 0;
+    margin-top: 40px;
+    margin-left: calc(50% - 150px);
 }
-.community-circle{
-    display:block;
 
-    width:900px;
-    height:450px;
-
-    background:#3d63d8;
-
-    border-radius:900px 900px 0 0;
-
-    margin:70px auto 0;
+.footer {
+    margin-top: -150px;
 }
 .footer-column a{
     display:flex;
